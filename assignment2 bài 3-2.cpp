@@ -18,18 +18,22 @@ int main(){
 			printf("phuong trinh vo nghiem!\n");
 			}
 		}else{
-		printf("phuong trinh co nghiem duy nhat %f:\n",(-c)/b);
+			float x;
+		float x =-c/b;
+		printf("phuong trinh co nghiem duy nhat %f:\n",x);
 	}
 	}else{
-	d=(b*b)-(4*(a*c));
+	float d=(b*b)-(4*(a*c));
 	}
 	if (d<0){
 		printf("phuong trinh vo nghiem!\n");
 	}	
 	else if (d==0){  
-	 printf ("phuong trinh co nghiem kep %f:\n",x1=x2=-b/(2*a));
+	float x1=x2=-b/(2*a);
+	    printf ("phuong trinh co nghiem kep %f %f:\n",x1=x2=-b/(2*a));
 	
 	} else {
+	float x1=((-b+sqrt(d))/2*a,-(b-sqrt(d))/2*a);
 		printf("phuong trinh co 2 nghiem phan biet %f:\n",x1=((-b+sqrt(d))/2*a,-(b-sqrt(d))/2*a));
 	}
 	}
